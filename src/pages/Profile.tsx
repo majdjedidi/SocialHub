@@ -19,12 +19,12 @@ const Profile:React.FC = () => {
             />
             <img
               className="w-36 h-36 rounded-full object-cover absolute left-0 right-0 m-auto top-40 border-white border-4 "
-              src="assets/person/7.jpeg"
+              src="assets/person/1.jpg"
               alt=""
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-              <h4 className="text-2xl">Safak Kocaoglu</h4>
+              <h4 className="text-2xl">Majd Jedidi</h4>
               <span className="font-light">Hello my friends!</span>
           </div>
         </div>
