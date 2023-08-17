@@ -10,7 +10,7 @@ const Home:React.FC = () => {
     <div className=" flex w-full">
       <Sidebar />
       <Feed />
-      <Rightbar />
+      <Rightbar profile={false} />
     </div>
     </>
   )

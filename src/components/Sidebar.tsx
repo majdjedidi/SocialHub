@@ -1,11 +1,11 @@
 import { RssIcon } from "@heroicons/react/24/solid"
-import {ChatBubbleLeftIcon,VideoCameraIcon,UserGroupIcon,BookmarkIcon,QuestionMarkCircleIcon,CalendarDaysIcon} from '@heroicons/react/24/outline' 
+import {ChatBubbleLeftIcon,VideoCameraIcon,UserGroupIcon,BookmarkIcon,QuestionMarkCircleIcon,CalendarDaysIcon} from '@heroicons/react/24/solid' 
 const Sidebar:React.FC = () => {
   const LiStyles:string ="flex items-center mb-5";
   const IconStyles:string="h-4 w-4 mr-4";
   const SpanStyles:string="";
   return (
-    <div className=" basis-3/12 h-feed overflow-y-scroll ">
+    <div className=" basis-3/12 h-feed overflow-y-scroll top-14 sticky">
       <div className=" p-5">
         <ul className="p-0 m-0 list-none">
           <li className={LiStyles}>
@@ -41,47 +41,47 @@ const Sidebar:React.FC = () => {
         <hr className="my-5 mx-0" />
         <ul className=" list-none m-0 p-0">
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
           <li className="flex items-center mb-4">
-            <img className="w-8 h-8 rounded-full object-cover mr-2" src="src\assets\person\2.jpeg"/>
+            <img className="w-8 h-8 rounded-full object-cover mr-2" src="assets\person\2.jpeg"/>
             <span>Jhon Doe</span>
           </li>
         </ul>
